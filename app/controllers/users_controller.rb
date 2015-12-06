@@ -7,6 +7,8 @@ class UsersController < ApplicationController
     @users = User.all
   end
 
+  #社会の窓
+  
   # GET /users/1
   # GET /users/1.json
   def show
